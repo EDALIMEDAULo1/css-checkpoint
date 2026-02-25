@@ -1,0 +1,157 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li{
+  display: inline;
+}
+body{
+  font-family: "Roboto";
+}
+.container{
+  background-color: lightblue;
+}
+.nav-list a{
+  text-decoration: none;
+  color: darkslategray;
+  padding: 10px;
+}
+.nav-list a:hover{
+  color: crimson;
+}
+p{
+  color: aliceblue;
+}
+h2{
+  color: gray;
+}
+h1{
+  color: gray;
+}
+#index > h1{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#index > p{
+  text-align: center;
+}
+.form{
+  color: aliceblue;
+}
+.introP{
+  text-align: center;
+}
+.introP > a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.introP > a:hover{
+  color:darkslateblue;
+}
+#about > h1{
+  text-align: center;
+  padding-top: 30px;
+}
+.aboutP{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.media-section > h4{
+  color: grey;
+  text-align: center;
+}
+video, audio {
+  flex: 1;
+  border-radius: 20px;
+  padding: 10px;
+}
+.media-items{
+  display: flex;
+  gap: 30px;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.work-link > a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.work-link a:hover{
+  color: darkblue;
+}
+.resume-link > a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.resume-link a:hover{
+  color: darkblue;
+}
+.linkedin-link > a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.linkedin-link a:hover{
+  color: darkblue;
+}
+#work > h2{
+  text-align: center;
+  padding-top: 30px;
+}
+#work > p{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#resume{
+  text-align: center;
+}
+#resume > p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#contact{
+  text-align: center;
+}
+#contact > p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 40px;
+}
+.introduction-form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-info{
+  display: flex;
+  gap: 20px;
+margin: 30px;
+}
+.email-link{
+  text-decoration: none;
+  color: aliceblue;
+}
+.contact-info a:hover{
+  color: darkblue;
+}
+.phone-no{
+  text-decoration: none;
+  color: aliceblue;
+}
+footer{
+  text-align: right;
+  
+}
+footer > p{
+  color: darkslategrey;
+}
